@@ -60,7 +60,7 @@ const App: React.FC = () => {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (username === 'zulfamadnan' && password === 'Password@123') {
+    if (username === 'zulfamadnan' && password === 'Zpassword@123') {
       setIsAuthenticated(true);
       setAuthError('');
     } else {
